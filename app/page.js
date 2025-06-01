@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h>Study Sidekick</h>
       <br></br>
-      <Link href={`/app/profile`}>
+      <Link href={`/profile`}>
         <Button className="">Testing Button</Button>
       </Link>
     </div>
