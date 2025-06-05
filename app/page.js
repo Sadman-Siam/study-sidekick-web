@@ -10,6 +10,9 @@ export default function Home() {
       <Link href={`/profile`}>
         <Button className="">Testing Button</Button>
       </Link>
+       <Link href={`/login`}>
+        <Button className="">login</Button>
+      </Link>
     </div>
   );
 }
