@@ -1,7 +1,9 @@
+import Sidebar from "@/components/Sidebar";
+
 export default function () {
   return (
     <div>
-      <h1>This is the create study page</h1>
+      <Sidebar></Sidebar>
     </div>
   );
 }
