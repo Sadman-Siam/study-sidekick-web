@@ -27,8 +27,6 @@ export default function CardDemo() {
       const user = result.user;
 
       console.log("User signed in successfully:", user);
-      // Redirect to study page after successful login
-      router.push("/study");
     } catch (error) {
       console.error("Error signing in:", error);
       alert(`Failed to sign in with Google: ${error.message}`);
